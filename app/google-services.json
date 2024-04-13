@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "493096149723",
+    "project_id": "car-pro-ee838",
+    "storage_bucket": "car-pro-ee838.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493096149723:android:6760d6a5c7200401bde2fe",
+        "android_client_info": {
+          "package_name": "com.example.car_pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtgjflVQe-moOnmO_ee7rdx-QZXHbZ3oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
