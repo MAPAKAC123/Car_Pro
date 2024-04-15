@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Registration">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
-        android:background="#808080"
-        android:text="Продолжить"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="580dp" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="472dp"
@@ -35,10 +23,10 @@
         android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.993"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.909"
         app:srcCompat="@drawable/icon_kurs_1" />
 
     <ImageView
@@ -238,6 +226,18 @@
         app:layout_constraintStart_toEndOf="@+id/linearLayout"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
     <EditText
         android:id="@+id/editTextText7"
         android:layout_width="194dp"
@@ -303,5 +303,36 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/linearLayout"
         app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="131dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="96dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_9" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Продолжить"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:srcCompat="@drawable/arrow_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
