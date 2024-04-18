@@ -26,5 +26,8 @@ Button btn1, btn2;
         if(v.getId() == R.id.button){
             startActivity(new Intent(this,Registration.class));
         }
+        else if(v.getId() == R.id.button3){
+            startActivity(new Intent(this, MainScreen.class));
+        }
     }
 }

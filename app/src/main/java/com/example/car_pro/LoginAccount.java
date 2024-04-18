@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 public class LoginAccount extends AppCompatActivity implements View.OnClickListener {
     Button btn, btn2;
-    ImageButton btn1;
+    ImageButton btn1, btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,9 @@ public class LoginAccount extends AppCompatActivity implements View.OnClickListe
 
         btn2 = findViewById(R.id.button);
         btn2.setOnClickListener(this);
+
+        btn3 = findViewById(R.id.imageButton2);
+        btn3.setOnClickListener(this);
 
         EditText editText = findViewById(R.id.editTextText);
 
@@ -50,6 +53,9 @@ public class LoginAccount extends AppCompatActivity implements View.OnClickListe
         }
         else if(view.getId() == R.id.button){
             startActivity(new Intent(this,Registration.class));
+        }
+        else if(view.getId() == R.id.imageButton2){
+            startActivity(new Intent(this, MainScreen.class));
         }
     }
 }

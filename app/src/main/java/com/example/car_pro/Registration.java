@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 
 public class Registration extends AppCompatActivity implements View.OnClickListener {
-ImageButton btn;
+ImageButton btn, btn2;
 Button btn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,9 @@ Button btn1;
 
         btn1 = findViewById(R.id.button);
         btn1.setOnClickListener(this);
+
+        btn2 = findViewById(R.id.imageButton2);
+        btn2.setOnClickListener(this);
 
         int[] editTextIds = {R.id.editTextText3, R.id.editTextText4, R.id.editTextText5, R.id.editTextText6, R.id.editTextText7};
 
@@ -46,6 +49,9 @@ Button btn1;
         }
         if(view.getId() == R.id.button){
             startActivity(new Intent(this, LoginAccount.class));
+        }
+        if(view.getId() == R.id.imageButton2){
+            startActivity(new Intent(this, MainScreen.class));
         }
     }
 }
