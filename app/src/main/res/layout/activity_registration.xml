@@ -199,7 +199,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/edOtchestvo"
         android:layout_width="194dp"
         android:layout_height="44dp"
         android:layout_marginTop="124dp"
@@ -213,7 +213,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <EditText
-        android:id="@+id/editTextText6"
+        android:id="@+id/edMail"
         android:layout_width="194dp"
         android:layout_height="44dp"
         android:layout_marginTop="188dp"
@@ -239,7 +239,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView7" />
 
     <EditText
-        android:id="@+id/editTextText7"
+        android:id="@+id/edLogin"
         android:layout_width="194dp"
         android:layout_height="44dp"
         android:layout_marginTop="252dp"
@@ -253,7 +253,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/edFamilia"
         android:layout_width="194dp"
         android:layout_height="44dp"
         android:layout_marginTop="60dp"
@@ -267,7 +267,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/edName"
         android:layout_width="194dp"
         android:layout_height="44dp"
         android:ems="10"
@@ -280,7 +280,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
@@ -289,10 +289,10 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
+        app:layout_constraintTop_toBottomOf="@+id/edLogin" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/edPPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
@@ -302,7 +302,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
+        app:layout_constraintTop_toBottomOf="@+id/edLogin" />
 
     <ImageButton
         android:id="@+id/imageButton2"

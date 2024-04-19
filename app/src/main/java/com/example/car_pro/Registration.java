@@ -3,7 +3,6 @@ package com.example.car_pro;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +12,7 @@ import android.widget.ImageButton;
 public class Registration extends AppCompatActivity implements View.OnClickListener {
 ImageButton btn, btn2;
 Button btn1;
+EditText edName, edFamilia, edOtchestvo, edMail, edLogin, edPassword, edPPaswword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,7 @@ Button btn1;
         btn2 = findViewById(R.id.imageButton2);
         btn2.setOnClickListener(this);
 
-        int[] editTextIds = {R.id.editTextText3, R.id.editTextText4, R.id.editTextText5, R.id.editTextText6, R.id.editTextText7};
+        int[] editTextIds = {R.id.edName, R.id.edFamilia, R.id.edOtchestvo, R.id.edMail, R.id.edLogin};
 
         for (int id : editTextIds) {
             EditText editText = findViewById(id);
