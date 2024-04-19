@@ -1,11 +1,13 @@
-public class RegisrationUsers {
+package com.example.car_pro;
+
+public class RegistrationUsers {
     public String  name, familia, otchestvo, email, login, password;
     public String id, phone;
-    public RegisrationUsers(){
+    public RegistrationUsers(){
 
     }
 
-    public RegisrationUsers(String id, String phone, String name, String familia, String otchestvo, String email, String login, String password)
+    public RegistrationUsers(String id, String phone, String name, String familia, String otchestvo, String email, String login, String password)
     {
         this.id = id;
         this.phone = phone;
