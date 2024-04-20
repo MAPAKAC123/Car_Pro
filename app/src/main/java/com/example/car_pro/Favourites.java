@@ -13,7 +13,6 @@ Button btn, btn1;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favourites);
-
         btn = findViewById(R.id.button2);
         btn.setOnClickListener(this);
 

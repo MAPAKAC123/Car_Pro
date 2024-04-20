@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "519885878115",
-    "project_id": "kurs-p",
-    "storage_bucket": "kurs-p.appspot.com"
+    "project_number": "768710504420",
+    "project_id": "car-pro-1",
+    "storage_bucket": "car-pro-1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:519885878115:android:b2b9b546b1fff1690a9956",
+        "mobilesdk_app_id": "1:768710504420:android:397d98dd2e504f1f69e1f1",
         "android_client_info": {
           "package_name": "com.example.car_pro"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBscQnmw20_KH07a9N9u9gjAjxlEBRFjI4"
+          "current_key": "AIzaSyDuhM9DQ61IdUjSo_fnIcDsip3gESWNPeI"
         }
       ],
       "services": {
